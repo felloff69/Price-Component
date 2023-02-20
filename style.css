@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.row{
+    display: flex;
+    clear: both;
+    content: "";
+}
+
+.column_left{
+    flex-basis: 30%;
+}
+
+.column_right{
+    flex-basis: 31.3%;
+}
+
+button{
+    padding: 8px;
+    color: white;
+    background-color: rgb(118, 208, 34);
+    border-radius: 8px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-style: none;
+
+}
